@@ -47,6 +47,7 @@ h1 h2 h3 h4 h5 h6{
     position: sticky;
     top: 0;
     z-index: 2;
+   
 }
 
 #main-nav .container{
@@ -79,3 +80,40 @@ h1 h2 h3 h4 h5 h6{
 i{
    padding: 10px;
 }
+
+.showcase{
+ color: white;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/jets/nue7vbohnzqllptdk3z6")  ;
+ height: 80vh;
+}
+
+.showcase .showcase-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.category{
+   display: inline-block;
+   color: white;
+   font-size: .7rem;
+   text-transform: uppercase;
+   padding: 0.4rem 0.6rem;
+   border-radius: 10px;
+   margin-bottom: 0.5rem;
+   background: #ED213A; 
+}
+
+.btn{
+    display: inline-block;
+    border: none;
+    background: var(--dark-color);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin-top: 10px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
