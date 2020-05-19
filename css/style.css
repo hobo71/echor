@@ -45,6 +45,11 @@ h1 h2 h3 h4 h5 h6{
    background: white;
    padding: 1rem; 
 }
+.btn-block{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 .py-1{ padding: 1.5rem 0;}
 .py-2{ padding: 2rem 0;}
 .py-3{ padding: 3rem 0;}
@@ -155,6 +160,25 @@ i{
     color: white
 }
 
+#aside-card{
+    background: var(--secondary-color);
+    color: white;
+}
+ 
+#aside-card h2{
+    margin: 1.2rem 0;
+}
+
+.page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1rem;
+}
+.page-container :first-child{
+    grid-row: 1 / span 3;
+}
+
 #main-footer{
     background: var(--dark-color);
     color: white;
@@ -165,13 +189,14 @@ i{
 .footer-container{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
-    padding: 1rem;
+    padding: 1rem 0.7rem;
     text-align: left;
 }
 .copyright{
     text-align: center;
     padding: 1rem;
     margin-top: 10px;
+   
 }
 .list li{
     margin: 10px 0;
@@ -190,3 +215,16 @@ i{
 .logo{
     padding: 0 10px;
 }
+
+input{
+    line-height: 2;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.l-heading{
+    margin: 1.5rem 0;
+}
+
+
+
