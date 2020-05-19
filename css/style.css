@@ -155,3 +155,38 @@ i{
     color: white
 }
 
+#main-footer{
+    background: var(--dark-color);
+    color: white;
+}
+#main-footer a{
+    color: white;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding: 1rem;
+    text-align: left;
+}
+.copyright{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 10px;
+}
+.list li{
+    margin: 10px 0;
+}
+.list li a:hover{
+    color: var(--primary-color);
+}
+.btn-light{
+    background: var(--primary-color);
+    border-radius: 4px;
+
+}
+.footer-container p{
+    margin-top: 15px;
+}
+.logo{
+    padding: 0 10px;
+}
